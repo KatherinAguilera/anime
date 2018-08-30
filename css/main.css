@@ -214,3 +214,40 @@ figcaption p{
   margin-top: 4em;
   }
 }
+@media screen and (max-width: 500px){
+.container {
+  display: grid;
+  grid-template: auto / auto;
+  grid-template-areas: "header"
+                       "menu " "animes";
+   height: 100vh;
+  }
+  .items{
+    display: flex;
+    margin:10px;
+    justify-content: space-around;
+    }
+  .items a:nth-child(1){
+   margin-top: 0;
+   }
+   .item-ajuste{
+    margin-bottom: 5px;
+    margin-top: -10px;
+
+  }
+  .fa-home, .fa-bolt, .fa-heart, .fa-cogs, .fa-comment-dots{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255, .2);
+  padding: 4px;
+  border-radius: 2px;
+
+  }
+  .items a p{
+    display: none;
+  }
+
+ .item-ajuste a p{
+  display: inline;
+  }
+}
