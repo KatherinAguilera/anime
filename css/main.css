@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-family: 'Comfortaa', cursive;
+  overflow-x:hidden;
 }
 img{
   max-width: 100%;
